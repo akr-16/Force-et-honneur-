@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le titre est maintenant personnalisable -->
+    <title>La Boutique de Sophie - Passez Commande</title>
+    <!-- Chargement de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Police Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <GT link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style pour le spinner de chargement */
+        .loader {
+            border-top-color: #3498db;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Conteneur principal -->
+    <div class="container mx-auto max-w-3xl p-6 md:p-12">
+
+        <!-- En-tÃªte -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold
